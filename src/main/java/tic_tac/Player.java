@@ -4,14 +4,14 @@ public class Player {
 	
 	String name;
 	String symbol;
-	int[] rows=new int[3];
-	int[] cols=new int[3];
+	int[] rows = new int[3];
+	int[] cols = new int[3];
 	int diagnal;
 	int antiDiagnal;
-	boolean win=false;
-	Player(String name,String symbol) {
-		this.name=name;
-		this.symbol=symbol;
+	boolean win = false;
+	Player(String name, String symbol) {
+		this.name = name;
+		this.symbol = symbol;
 	}
 	public String getName() {
 		return name;
